@@ -14,7 +14,7 @@ spring:
         git:
           uri: https://github.com/keinraf/DAD-2025-E # ruta del repositorio git
           searchPaths: config-data
-          default-label: main
+          default-label: principal
 
   security:
     user:
