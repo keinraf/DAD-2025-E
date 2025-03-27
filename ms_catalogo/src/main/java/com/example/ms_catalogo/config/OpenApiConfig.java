@@ -18,4 +18,6 @@ public class OpenApiConfig {
                 .license(new License().name("Apache 2.0").url("http://springdoc.org"))
         );
     }
+
+    //http://localhost:8081/doc/swagger-ui.html
 }
