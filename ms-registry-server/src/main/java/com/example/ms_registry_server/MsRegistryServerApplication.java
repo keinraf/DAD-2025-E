@@ -12,5 +12,5 @@ public class MsRegistryServerApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(MsRegistryServerApplication.class, args);
 	}
-
+//aaaaaaaaaaaaaaaaaa
 }
