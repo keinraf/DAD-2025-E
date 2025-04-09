@@ -12,7 +12,7 @@
 	<artifactId>ms-registry-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ms-registry-server</name>
-	<description>Demo project for Spring Boot</description>
+	<description>ms-registry-server</description>
 	<url/>
 	<licenses>
 		<license/>

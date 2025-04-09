@@ -5,6 +5,9 @@
 server:
   port: 7070
 
+
+
+
 spring:
   application:
     name: config-server
@@ -14,11 +17,8 @@ spring:
         git:
           uri: https://github.com/keinraf/DAD-2025-E # ruta del repositorio git
           searchPaths: config-data
-          #username:
-          #password:
           default-label: principal
-
   security:
     user:
       name: root
-      password: kevinraf
+      password: 123456

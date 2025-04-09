@@ -60,9 +60,9 @@ public class CategoriaSeeder implements CommandLineRunner {
             categoriaRepository.save(cat19);
             categoriaRepository.save(cat20);
 
-            System.out.println("Datos kr de categorías insertados correctamente.");
+            System.out.println("Datos de categorías insertados correctamente.");
         } else {
-            System.out.println("Las categorías kr ya existen, no se insertaron datos.");
+            System.out.println("Las categorías ya existen, no se insertaron datos.");
         }
     }
 }
