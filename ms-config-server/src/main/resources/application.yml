@@ -1,0 +1,24 @@
+
+
+
+#spring.application.name=ms-config-server
+server:
+  port: 7071
+
+
+
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/keinraf/DAD-2025-E.git # ruta del repositorio git
+          searchPaths: config-data
+          default-label: otros1
+  security:
+    user:
+      name: root
+      password: 123456
